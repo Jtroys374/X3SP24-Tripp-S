@@ -1,0 +1,7 @@
+<node id="node1" position="-40,20"></node>
+<node id="node2" position="40,-20"></node>
+<resistor id="res1" resistance="100" connection="node1,node2"></resistor>
+<capacitor id="cap1" capacitance="0.01" connection="node1,node2"></capacitor>
+<inductor id="ind1" inductance="0.005" connection="node1,node2"></inductor>
+<voltage_source id="vs1" voltage="5" connection="node1,node2"></voltage_source>
+<loop id="loop1" elements="res1,cap1,ind1,vs1"></loop>
